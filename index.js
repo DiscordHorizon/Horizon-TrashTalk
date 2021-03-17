@@ -3,6 +3,7 @@ const { discord, channel } = require("./utils/horizonUtils");
 const { createDict, genText } = require("./include/words");
 
 require("./database");
+require("./server");
 
 const bot = new Discord.Client();
 
